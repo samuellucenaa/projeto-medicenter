@@ -160,18 +160,97 @@ header{
     flex: 2;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Configs de Latest News */
+
+article .news-data{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+article .news-posted-at{
+    background-color: #3156a3;
+    margin-right: 3px;
+    padding: 10px;
+}
+
+article .news-comments{
+    background-color: #0384ce;
+    padding: 10px;
+}
+
+article .news-thumb img{
+    margin-top: 30px;
+    width: 300px;
+    min-width: 300px;
+}
+
+article .news-title{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+article .news-info{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
 .widget-title{
     margin-top: 30px;
+}
+
+.widget-title-text{
     font-size: 20px;
 }
 
 .widget-title-bar{
     margin-top: 4px;
+    margin-bottom: 20px;
     width: 50px;
     height: 2px;
     background-color: #0384ce;
 }
 
+
 #geral aside{
     flex: 1;
+}
+
+/* Configs da aside Departments */
+
+.widget-body-departments{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.widget-body-square{
+    margin-top: 20px;
+    width: 153px;
+    height: 158px;
+    background-color: #42b3e5;
+}
+
+/* Configs da aside Make An Appointment */
+
+.widget-body-appointment-contact{
+    margin-top: 20px;
+}
+
+.widget-body-appointment-contact-phone{
+    border-top: 1px solid #0000003d;
+}
+
+
+.widget-body-appointment-contact-phone,
+.widget-body-appointment-contact-email{
+    border-bottom: 1px solid #0000003d;
+    padding: 10px 0px;
 }
