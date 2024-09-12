@@ -285,6 +285,16 @@ footer{
     flex: 1;
 }
 
+.footer-menu h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-menu p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .fm-1,
 .fm-2,
 .fm-3{
@@ -312,6 +322,62 @@ footer{
 
 .footer-areaitems{
     flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-areaitems p{
+    color: #727272;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer-areaitems-mc{
+    display: flex;
+}
+
+.footer-areaitems-mc-address{
+    color: #727272;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer-areaitems-mc-contact{
+    color: #727272;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.footer-areaitems-mc-contact span{
+    color: #FFFFFF;
+}
+
+.footer-areaitems-lp p{
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.footer-areaitems-lp-date{
+    font-size: 12px;
+    color: #42b3e5;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.footer-areaitems-lt a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-areaitems-lt a:hover{
+    text-decoration: underline;
+}
+
+.footer-areaitems-lt-date{
+    font-size: 12px;
+    color: #42b3e5;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 .flexColumn{
