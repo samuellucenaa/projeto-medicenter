@@ -439,4 +439,15 @@ footer{
         margin-top: 15px;
     }
 
+    article .news-thumb img{
+        width: 80%;
+    }
+
+    article .news-title{
+        font-size: 20px;
+    }
+
+    article .news-resume {
+        font-size: 15px;
+    }
 }
