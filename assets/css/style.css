@@ -502,6 +502,10 @@ footer{
         justify-content: space-around;
     }
 
+    #banner{
+        height: auto;
+    }
+
     .banner-headline h1{
         font-size: 60px;
     }
@@ -509,4 +513,27 @@ footer{
     .banner-headline h2{
         font-size: 24px;
     }
+
+    .banner-options{
+        flex-direction: column;
+        height: auto;
+        margin-top: 50%;
+    }
+
+    #geral .container{
+        flex-direction: column;
+    }
+
+    article .news-thumb{
+        display: flex;
+        justify-content: center;
+    }
+
+    article .news-title, .news-resume{
+        text-align: center;
+    }
+
+    .widget-body-departments{}
+    
+    .widget-body-square{}
 }
