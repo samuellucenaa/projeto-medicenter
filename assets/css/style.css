@@ -400,6 +400,21 @@ footer{
     color: #5c5c5c;
 }
 
+/* Configs do botão menu */
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mm-line{
+    height: 4px;
+    background-color: #0384ce;
+}
+
 /* Configs para tablet */
 
 @media (max-width: 768px) {
@@ -454,18 +469,6 @@ footer{
 
 /* Config para mobile */
 
-.menuMobile{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.mm-line{
-    height: 4px;
-    background-color: #0384ce;
-}
 
 @media (max-width: 500px) {
     
@@ -520,6 +523,10 @@ footer{
         margin-top: 50%;
     }
 
+    .banner1, .banner2, .banner3{
+        text-align: center;
+    }
+
     #geral .container{
         flex-direction: column;
     }
@@ -533,7 +540,19 @@ footer{
         text-align: center;
     }
 
-    .widget-body-departments{}
+    .widget-body-departments{
+        justify-content: center;
+    }
     
-    .widget-body-square{}
+    .widget-body-square{
+        margin-right: 10px;
+    }
+
+    .footer-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-area{
+        flex-direction: column;
+    }
 }
